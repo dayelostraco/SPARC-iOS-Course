@@ -45,6 +45,23 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+//override this method to define behavior of our segues
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
+    if(  [segue.identifier isEqualToString:@"detailSegue"]  )
+    {
+        
+        NSIndexPath *path = sender;
+        
+        [[segue destinationViewController] setDetail: [_theArray objectAtIndex:path.row]];
+        
+    }
+    
+    
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -96,22 +113,6 @@
 }
 
 
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -126,26 +127,12 @@
 }
 
 
-
 -(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
 {
     [self performSegueWithIdentifier:@"detailSegue" sender:indexPath];
 }
 
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    
-    if(  [segue.identifier isEqualToString:@"detailSegue"]  )
-    {
-        
-        NSIndexPath *path = sender;
-        
-        [[segue destinationViewController] setDetail: [_theArray objectAtIndex:path.row]];
-        
-    }
-    
-    
-}
+#pragma mark - Custom methods
 
 - (IBAction)addButtonPressed:(id)sender {
     
