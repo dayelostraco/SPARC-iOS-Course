@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		247CCB78169B34300003ADF7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247CCB77169B34300003ADF7 /* CoreData.framework */; };
+		247CCB7C169B34E80003ADF7 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 247CCB7A169B34E80003ADF7 /* CoreDataModel.xcdatamodeld */; };
+		248E8963169F229E00719F16 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E8962169F229E00719F16 /* Event.m */; };
+		985E3DF0167A7C770070653B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985E3DEF167A7C770070653B /* UIKit.framework */; };
+		985E3DF2167A7C770070653B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985E3DF1167A7C770070653B /* Foundation.framework */; };
+		985E3DF4167A7C770070653B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985E3DF3167A7C770070653B /* CoreGraphics.framework */; };
+		985E3DFA167A7C770070653B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 985E3DF8167A7C770070653B /* InfoPlist.strings */; };
+		985E3DFC167A7C770070653B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 985E3DFB167A7C770070653B /* main.m */; };
+		985E3E00167A7C770070653B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 985E3DFF167A7C770070653B /* AppDelegate.m */; };
+		985E3E02167A7C770070653B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 985E3E01167A7C770070653B /* Default.png */; };
+		985E3E04167A7C770070653B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 985E3E03167A7C770070653B /* Default@2x.png */; };
+		985E3E06167A7C770070653B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 985E3E05167A7C770070653B /* Default-568h@2x.png */; };
+		985E3E09167A7C770070653B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985E3E07167A7C770070653B /* MainStoryboard.storyboard */; };
+		985E3E14167A7DDE0070653B /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 985E3E13167A7DDE0070653B /* MainTableViewController.m */; };
+		985E3E17167A8A8F0070653B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 985E3E16167A8A8F0070653B /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		247CCB77169B34300003ADF7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		247CCB7B169B34E80003ADF7 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		248E8961169F229E00719F16 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		248E8962169F229E00719F16 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		985E3DEB167A7C770070653B /* QUAKE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QUAKE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		985E3DEF167A7C770070653B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		985E3DF1167A7C770070653B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		985E3DF3167A7C770070653B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		985E3DF7167A7C770070653B /* QUAKE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QUAKE-Info.plist"; sourceTree = "<group>"; };
+		985E3DF9167A7C770070653B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		985E3DFB167A7C770070653B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		985E3DFD167A7C770070653B /* QUAKE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QUAKE-Prefix.pch"; sourceTree = "<group>"; };
+		985E3DFE167A7C770070653B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		985E3DFF167A7C770070653B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		985E3E01167A7C770070653B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		985E3E03167A7C770070653B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		985E3E05167A7C770070653B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		985E3E08167A7C770070653B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		985E3E12167A7DDE0070653B /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		985E3E13167A7DDE0070653B /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		985E3E15167A8A8F0070653B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		985E3E16167A8A8F0070653B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		985E3DE8167A7C770070653B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247CCB78169B34300003ADF7 /* CoreData.framework in Frameworks */,
+				985E3DF0167A7C770070653B /* UIKit.framework in Frameworks */,
+				985E3DF2167A7C770070653B /* Foundation.framework in Frameworks */,
+				985E3DF4167A7C770070653B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		985E3DE0167A7C770070653B = {
+			isa = PBXGroup;
+			children = (
+				985E3DF5167A7C770070653B /* QUAKE */,
+				985E3DEE167A7C770070653B /* Frameworks */,
+				985E3DEC167A7C770070653B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		985E3DEC167A7C770070653B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				985E3DEB167A7C770070653B /* QUAKE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		985E3DEE167A7C770070653B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				247CCB77169B34300003ADF7 /* CoreData.framework */,
+				985E3DEF167A7C770070653B /* UIKit.framework */,
+				985E3DF1167A7C770070653B /* Foundation.framework */,
+				985E3DF3167A7C770070653B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		985E3DF5167A7C770070653B /* QUAKE */ = {
+			isa = PBXGroup;
+			children = (
+				985E3DFE167A7C770070653B /* AppDelegate.h */,
+				985E3DFF167A7C770070653B /* AppDelegate.m */,
+				985E3E07167A7C770070653B /* MainStoryboard.storyboard */,
+				985E3DF6167A7C770070653B /* Supporting Files */,
+				985E3E12167A7DDE0070653B /* MainTableViewController.h */,
+				985E3E13167A7DDE0070653B /* MainTableViewController.m */,
+				985E3E15167A8A8F0070653B /* DetailViewController.h */,
+				985E3E16167A8A8F0070653B /* DetailViewController.m */,
+				247CCB7A169B34E80003ADF7 /* CoreDataModel.xcdatamodeld */,
+				248E8961169F229E00719F16 /* Event.h */,
+				248E8962169F229E00719F16 /* Event.m */,
+			);
+			path = QUAKE;
+			sourceTree = "<group>";
+		};
+		985E3DF6167A7C770070653B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				985E3DF7167A7C770070653B /* QUAKE-Info.plist */,
+				985E3DF8167A7C770070653B /* InfoPlist.strings */,
+				985E3DFB167A7C770070653B /* main.m */,
+				985E3DFD167A7C770070653B /* QUAKE-Prefix.pch */,
+				985E3E01167A7C770070653B /* Default.png */,
+				985E3E03167A7C770070653B /* Default@2x.png */,
+				985E3E05167A7C770070653B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		985E3DEA167A7C770070653B /* QUAKE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 985E3E0F167A7C770070653B /* Build configuration list for PBXNativeTarget "QUAKE" */;
+			buildPhases = (
+				985E3DE7167A7C770070653B /* Sources */,
+				985E3DE8167A7C770070653B /* Frameworks */,
+				985E3DE9167A7C770070653B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QUAKE;
+			productName = QUAKE;
+			productReference = 985E3DEB167A7C770070653B /* QUAKE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		985E3DE2167A7C770070653B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = SPARC;
+			};
+			buildConfigurationList = 985E3DE5167A7C770070653B /* Build configuration list for PBXProject "QUAKE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 985E3DE0167A7C770070653B;
+			productRefGroup = 985E3DEC167A7C770070653B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				985E3DEA167A7C770070653B /* QUAKE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		985E3DE9167A7C770070653B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985E3DFA167A7C770070653B /* InfoPlist.strings in Resources */,
+				985E3E02167A7C770070653B /* Default.png in Resources */,
+				985E3E04167A7C770070653B /* Default@2x.png in Resources */,
+				985E3E06167A7C770070653B /* Default-568h@2x.png in Resources */,
+				985E3E09167A7C770070653B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		985E3DE7167A7C770070653B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985E3DFC167A7C770070653B /* main.m in Sources */,
+				985E3E00167A7C770070653B /* AppDelegate.m in Sources */,
+				985E3E14167A7DDE0070653B /* MainTableViewController.m in Sources */,
+				985E3E17167A8A8F0070653B /* DetailViewController.m in Sources */,
+				247CCB7C169B34E80003ADF7 /* CoreDataModel.xcdatamodeld in Sources */,
+				248E8963169F229E00719F16 /* Event.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		985E3DF8167A7C770070653B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				985E3DF9167A7C770070653B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		985E3E07167A7C770070653B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				985E3E08167A7C770070653B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		985E3E0D167A7C770070653B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		985E3E0E167A7C770070653B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		985E3E10167A7C770070653B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QUAKE/QUAKE-Prefix.pch";
+				INFOPLIST_FILE = "QUAKE/QUAKE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		985E3E11167A7C770070653B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QUAKE/QUAKE-Prefix.pch";
+				INFOPLIST_FILE = "QUAKE/QUAKE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		985E3DE5167A7C770070653B /* Build configuration list for PBXProject "QUAKE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				985E3E0D167A7C770070653B /* Debug */,
+				985E3E0E167A7C770070653B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		985E3E0F167A7C770070653B /* Build configuration list for PBXNativeTarget "QUAKE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				985E3E10167A7C770070653B /* Debug */,
+				985E3E11167A7C770070653B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		247CCB7A169B34E80003ADF7 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				247CCB7B169B34E80003ADF7 /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 247CCB7B169B34E80003ADF7 /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 985E3DE2167A7C770070653B /* Project object */;
+}
